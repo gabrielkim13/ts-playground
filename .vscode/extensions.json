@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-containers",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "ZixuanChen.vitest-explorer"
+  ]
+}

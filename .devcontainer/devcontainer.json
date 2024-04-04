@@ -1,0 +1,28 @@
+{
+  "name": "ddd-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "username": "node"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "usernamehw.errorlens",
+        "yoavbls.pretty-ts-errors",
+        "ZixuanChen.vitest-explorer"
+      ]
+    }
+  },
+  "postCreateCommand": "pnpm install",
+  "remoteUser": "node",
+  "runArgs": [
+    "--name=ddd-devcontainer"
+  ]
+}
